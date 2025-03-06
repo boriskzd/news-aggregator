@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+    app:
+        build:
+            context: .
+            target: development
+        ports:
+            - '3000:3000'
+        volumes:
+            - .:/app
+            - /app/node_modules # Preserves node_modules from the container
+        environment:
+            - WATCHPACK_POLLING=true
