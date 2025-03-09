@@ -1,3 +1,7 @@
+> Why this app was created with Next.js and not pure React? Because `create-react-app` is deprecated, and React recommends creating new apps with `create-next-app`.
+>
+> Source: [Sunsetting Create React App @ React.dev](https://react.dev/blog/2025/02/14/sunsetting-create-react-app)
+
 # News Aggregator App
 
 ## Running with Docker
