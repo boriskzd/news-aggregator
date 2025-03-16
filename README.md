@@ -33,6 +33,15 @@ By using Docker Compose you will have Hot Reloading for development.
     docker-compose down
     ```
 
+    ***
+
+    > Sometimes the project would neeed to be rebuilt, for example: when installing new dependencies in the project. The `--build` flag ensures the image is rebuilt.
+
+    ```
+    docker-compose down
+    docker-compose up --build
+    ```
+
 Alternative ( Hot Reloading not working ):
 
 1. Build your container:
